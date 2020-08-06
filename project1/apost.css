@@ -1,0 +1,346 @@
+/**STYLING FOR HEADER**/
+#main-header{            
+       background-color:black;
+       font-family:sans-serif;
+       font-size: 20px;
+       overflow: hidden;
+       height: 150px;
+       position:sticky;
+       top:0;
+       padding: 0;
+       margin-bottom:50px;
+       width: 100%;
+             }
+   nav{
+       position:absolute;
+       bottom:50%;
+       width: 30%;
+       left: 65%;
+       float: right;
+       display: inline-block;
+        }
+  #header-left{
+       position: absolute;
+       left: 15%;
+       top: 15%;
+       color: white;
+       width: 20%;
+              }
+ .class1{
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+       }
+ .class1:hover{
+               background-color: cornflowerblue;
+               padding: 10px;
+               opacity: 0.5;
+             }
+/**STYLING FOR FOOTER**/
+#main-footer{
+        background-color: black;
+        width: 100%;
+        height:300px;
+        position:relative;
+        clear: both;
+        bottom: 0;
+        overflow: hidden;
+           }
+#copyright{
+     color: white;
+     position: absolute;
+     left: 15%;
+     width: 30%;
+     top: 15%;
+    }
+#footer-nav{
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+    }
+.class2{
+        padding: 10px;
+        color: white;
+       }
+.class3{
+     display:inline-grid;
+     padding: 50px;
+       }
+
+/**STYLING FOR ASIDE**/
+
+ul{
+     list-style: none;
+     text-decoration:underline;
+     font-family: sans-serif;
+     font-style: italic;
+     text-transform: full-width;
+     width: 100%;
+   }
+li{
+     padding: 2VH;
+     font-size: 3VH;
+     width: 100%;
+  }
+.class4{
+        color:chocolate;
+       }
+.class4:active{
+               color: orange;
+              }
+
+aside{
+    width: 30%;
+    float: right;
+    margin-top: 30px;
+    display: inline-block;
+     }
+#glass
+    {
+         width: 7%;
+        height:auto;
+    }
+        
+#search-box{
+         width: 70%;
+         height: 30px;
+         padding: 20px;
+         margin: 20px;
+         border: 15px;
+         border-color: darkgray;
+         border-style:ridge;
+         border-radius: 15px;;
+       }
+#advertisement{
+       width: 80%;
+       height:400px;
+       margin-left: 50px;
+      }
+
+
+/**STYLING FOR MAIN SECTION**/
+main{
+      border: 10px solid black;
+      width: 60%;
+      margin: 5%;
+      height: auto;
+      margin-top: 13%;
+      border-radius: 10px;
+    }
+#title,#catagory{
+        width: 70%;
+        height: 30px;
+        margin: 20px;
+       }
+#body{
+       width: 80%;
+       height: 300px;
+       margin-left: 10%;
+     }  
+option{
+    font-family: sans-serif;
+    font-size: 15px;
+      }
+#image{
+        width: 30%;
+        height: 30px;
+        margin: 20px;
+       }
+label{
+    font-family:inherit;
+    font-size: 25px;
+    font-style: oblique;
+    margin-left: 5%;
+     }
+label[for="body"]{
+    margin-bottom: 50px;
+}
+button{
+    width:10%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    padding: 1%;
+      }
+button:hover{
+    color: red;
+            }
+/**RESPONSIVNESS**/
+@media only screen and (max-width:600px)
+{
+       #header-left{
+        display:inline-flex;
+        font-size: 12px;
+        width: 40%;
+                }
+    nav
+    {
+        position:absolute;
+        left: 5%;
+        display: inline-block;
+        width: 90%;
+        bottom: 10%;
+    }
+    .class1{
+        font-size: 17px;
+    }
+
+   #search-box{
+               width: 100%;
+               padding: 10px;
+               margin: 0;
+               }
+    #glass{
+        width:30%;
+        padding-left: 35%;
+          }
+    #advertisement{
+                    width: 50%;
+                   height: 130px;
+                    //margin-right: 10%;
+                     }
+        li{
+           width: 40%;
+           font-size: 15px;
+           }
+    label{
+    font-family:inherit;
+    font-size: 15px;
+    font-style: oblique;
+          }
+    button{
+    width:20%;
+    height: 30px;
+    font-size: 10px;
+    font-style: italic;
+           }
+    #image{
+         width: 30%;
+          }
+    #body{
+       width: 80%;
+       height: 100px;
+       margin: 20px;
+     } 
+}
+@media only screen and (max-width:849px) and (min-width:600px)
+{
+   
+       #header-left{
+        display:inline-flex;
+        font-size: 12px;
+        width: 40%;
+                }
+    nav
+    {
+        position:absolute;
+        left: 55%;
+        display: inline-block;
+        width: 70%;
+        bottom: 55%;
+    }
+    .class1{
+        font-size: 12px;
+    }
+
+
+   #search-box{
+               width: 100%;
+               padding: 10px;
+               margin: 0;
+               }
+    #glass{
+        width:20%;
+        padding-left: 35%;
+          }
+    #advertisement{
+                    width: 60%;
+                   height: 150px;
+                     }
+        li{
+           width: 40%;
+           font-size: 21px;
+           }
+    label{
+    font-family:inherit;
+    font-size: 20px;
+    font-style: oblique;
+          }
+    button{
+    width:30%;
+    height: 30px;
+    font-size: 20px;
+    font-style: italic;
+           }
+    #image{
+         width: 30%;
+          }
+    #body{
+       width: 80%;
+       height: 170px;
+       margin: 20px;
+     }
+}
+
+@media only screen and (max-width:1140px) and (min-width:850px)
+{
+    
+    #header-left{
+        display:inline-flex;
+        font-size: 15px;
+        width: 40%;
+                }
+    nav
+    {
+        position:absolute;
+        left:60%;
+        display: inline-block;
+        width: 70%;
+        bottom: 55%;
+    }
+    .class1{
+        font-size: 15px;
+           }
+    button{
+    width:30%;
+    height: 30px;
+    font-size: 15px;
+    font-style: italic;
+        }
+    #image{
+          width: 80%;
+         }
+          
+    }  
+@media only screen and (max-width:1650px) and (min-width:1140px)
+{
+    
+    #header-left{
+        display:inline-flex;
+        font-size: 15px;
+        width: 40%;
+                }
+    nav
+    {
+        position:absolute;
+        left:60%;
+        display: inline-block;
+        width: 70%;
+        bottom: 55%;
+    }
+    .class1{
+        font-size: 20px;
+           }
+    button{
+    width:30%;
+    height: 30px;
+    font-size: 15px;
+    font-style: italic;
+        }
+          
+}
+
+
+
